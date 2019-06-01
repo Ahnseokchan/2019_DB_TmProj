@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\Ahn\eclipse-workspace\database\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2654866861.index
-\downgrade\src
