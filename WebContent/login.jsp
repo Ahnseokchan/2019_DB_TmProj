@@ -25,7 +25,7 @@
 			<a class="navbar-brand" href="main.jsp">KW UNIVERSITY</a>
 		</div>
 		<div class="collapse navbar-collapse"
-			id="bs-example-navbar-collapse-1">
+			id="bs-example-navbar-collapse-1" >
 	
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -47,7 +47,7 @@
 			<div class="jumbotron" style="padding-top: 20px;">
 				<form method="post" action="loginAction.jsp">
 <!-- 				회원가입이나 로그인처럼 정보를 숨기고 싶을 때 method post 를 사용하고, 그걸 action 으로 loginactionjsp로 보내겠다는 의미임 -->
-					<h3 style="text-align: center;">로그인</h3>
+					<h3 style="text-align: center;" color="Red">로그인</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디 " 				
 							name="userID" maxlength="20"> <!-- placeholder 는 아무것도 입력받지 않았을 때 보여주는 역할 -->		
@@ -58,6 +58,8 @@
 					</div>
 					<input type="submit" class="btn btn-primary form-control"
 						value="로그인"> <!-- value 로그인이 이 버튼이 로그인이라는 걸 보여주는 것 -->
+					<br><br>
+					아이디가 없으면 가입해주세요--> <a href="join.jsp">회원가입</a>
 				</form>
 			</div>
 		</div>
